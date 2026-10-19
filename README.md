@@ -25,7 +25,7 @@ Add this to your app's `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  flutter_type_parser: ^1.0.1
+  flutter_type_parser: ^1.0.2
 ```
 
 Then run:
@@ -61,19 +61,5 @@ final decoded = FlutterTypeParser.decodeJsonOrNull(json['metadata']);
 - `toHttpUriOrNull` validates the URL scheme and structure but does not check network reachability.
 - `toDateTime` uses the UTC epoch if parsing fails and no fallback is supplied. Prefer `toDateTimeOrNull` for business data.
 
-## Development
-
-```bash
-dart pub get
-dart format .
-dart analyze
-dart test
-dart pub publish --dry-run
-```
-
-Before publishing, replace the placeholder repository and issue-tracker URLs in `pubspec.yaml` with your real repository URLs.
-
 ## License
-
 See `LICENSE`.
-# flutter_type_parser
