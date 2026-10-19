@@ -1,0 +1,16 @@
+name: flutter_type_parser
+description: A dependency-free Dart utility for safely parsing inconsistent API values into typed Dart values.
+version: 1.0.1
+repository: https://github.com/sudipmahanta/flutter_type_parser
+issue_tracker: https://github.com/sudipmahanta/flutter_type_parser/issues
+topics:
+  - parsing
+  - json
+  - utilities
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
