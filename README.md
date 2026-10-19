@@ -21,7 +21,7 @@ A dependency-free Dart utility for parsing inconsistent API values into typed Da
 
 ## Install
 
-After publishing to pub.dev, add this to your app's `pubspec.yaml`:
+Add this to your app's `pubspec.yaml`:
 
 ```yaml
 dependencies:
